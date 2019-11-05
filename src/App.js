@@ -1,11 +1,10 @@
 import React, { Component } from "react";
 import "./App.css";
-//import Register from "./components/Register";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import About from "./components/About";
-import DB from "./db.png";
+
 import Visa from "./visa.png";
 import Master from "./master.png";
 import Search from "./components/Search";
@@ -53,13 +52,8 @@ export class App extends Component {
       <Router>
         <div className="container">
           <div className="row">
-            <div className="col-12 p-0 bg-white">
-              <img
-                src={DB}
-                alt="tomas"
-                width="200px"
-                style={{ padding: "10px" }}
-              />
+            <div className="col-12 p-0 bg-white text-center">
+              <h1>Welcome to my App</h1>
               <Header />
             </div>
           </div>
@@ -94,7 +88,7 @@ export class App extends Component {
           </div>
           <div className="row footer  mainRed">
             <div className="col-12  p-4 text-white text-center">
-              <p>Copyright © 2019. Tomas Cook, All rights reserved.</p>
+              <p>Copyright © 2019. Nooruldeen82, All rights reserved.</p>
             </div>
           </div>
         </div>

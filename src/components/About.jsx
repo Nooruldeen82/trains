@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import DB from "../db.png";
+
 export class About extends Component {
   render() {
     return (
@@ -10,7 +10,6 @@ export class About extends Component {
           accusantium unde consequatur aperiam, illum sequi. Totam veritatis
           corrupti deleniti illum.
         </p>
-        <img src={DB} alt="db" width="50%" />
       </div>
     );
   }
