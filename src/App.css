@@ -1,0 +1,22 @@
+body {
+  background-color: rgb(216, 215, 215);
+}
+
+.container {
+  background-image: url("../src/zug.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.footer {
+  position: relative;
+  margin-top: 200px;
+  height: 100px;
+  clear: both;
+}
+input {
+  height: 36px;
+}
+.mainRed {
+  background-color: #f00;
+}
